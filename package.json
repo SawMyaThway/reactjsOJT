@@ -1,0 +1,31 @@
+{
+  "name": "outline-create-tool",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "@grapecity/wijmo.all": "^5.20213.824",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.4.3",
+    "antd": "^4.17.1",
+    "axios": "^0.24.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "i18n-js": "^3.8.0",
+    "jszip": "^3.7.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react_ujs": "^2.6.1",
+    "react-dom": "^17.0.2",
+    "react-highlight-words": "^0.17.0",
+    "react-router-dom": "^5.2.0",
+    "turbolinks": "^5.2.0",
+    "validator": "^13.7.0",
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "3"
+  }
+}

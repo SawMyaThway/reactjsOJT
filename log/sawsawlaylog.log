@@ -1,0 +1,2 @@
+# Logfile created on 2021-12-22 14:25:23 +0630 by logger.rb/v1.4.2
+ProductDevLog:   Rendered layout C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/web-console-4.1.0/lib/web_console/templates/layouts/javascript.erb (Duration: 1.3ms | Allocations: 252)ProductDevLog:   Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/web-console-4.1.0/lib/web_console/templates/index.html.erb (Duration: 53.7ms | Allocations: 5947)

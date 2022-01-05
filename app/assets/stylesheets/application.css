@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.inputWidth {
+  width: 30%;
+}
+table thead tr th {
+  text-align: center !important;
+}
+.ant-pagination-total-text {
+  margin-right: auto;
+}
+.ant-popover-buttons {
+  direction: rtl;
+}
+.ant-layout-sider-trigger {
+  background-color: #1cb57b !important;
+}
+
+.groupUserSettingTable .ant-table-body table {
+  direction: rtl !important;
+}
+
+.groupUserSettingTable .ant-table-body table .ant-checkbox-wrapper {
+  display: none;
+}
+
+.groupUserSettingTable .ant-table-header table .ant-checkbox-wrapper {
+  display: none !important;
+}
+/* 競合サイトテーブル用CSS */
+.conflict-site-table .ant-table-tbody > tr > td {
+  vertical-align: top;
+}
+
+.VL {
+  border-left: 1px solid #d9d9d9;
+  height: 330px;
+  position: absolute;
+  left: 50%;
+  margin-top: -159px;
+}
+
+/* 骨子作成タイトルの名詞テーブル用CSS */
+.title-input .ant-form-item-explain {
+  min-height: 0px;
+}
+.title-input-table th {
+  background-color: rgb(202, 202, 202) !important;
+}
+.title-input-table .ant-table-tbody > tr > td {
+  vertical-align: top;
+}
+
+/* 選択した競合サイト一覧画面の編集ポップアップ */
+.h2-h3-modal .ant-modal-body {
+  height: 450px;
+  overflow-y: auto;
+}
+
+/* 選択した競合サイト一覧画面の編集ポップアップ */
+.h2-h3-modal .ant-modal-body {
+  height: 450px;
+  overflow-y: auto;
+}
+/* 分類を選択する画面のテーブル用CSS　*/
+.select-classification-table th {
+  background-color: rgb(202, 202, 202) !important;
+}
+.ant-table-title {
+  direction: ltr;
+}
+.status-table .status-column {
+  padding: 0;
+}
+
+.status-table .max-status-column {
+  background: #fafa89;
+}
+
+.error-color {
+  color: red;
+}

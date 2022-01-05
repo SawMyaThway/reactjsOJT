@@ -1,0 +1,76 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# ja:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+ja:
+  home:
+    home: "ホーム"
+    menu1:
+      title: "設定"
+      side1: "ユーザー管理"
+      side2: "社員情報"
+  user:
+    id: "番号"
+    userName: "ユーザー名"
+    email: "メールアドレス"
+  message:
+    M001: "ユーザー名を入力してください。"
+    M002: "名前は10文字だけです。"
+  common:
+    button:
+      save: "保存"
+      cancle: "キャンセル"
+      excel: "Excel出力"
+      clear: "クリア"
+  # employee:
+  #   form:
+  #     columns:
+  #       name: "名前"
+  #       email: "メール"
+  #       age: "年齢"
+  #       role: "ロール"
+  #       address: "住所"
+  #       birthday: "誕生日"
+  #       group: "グループ"
+  #       action: "アクション"
+  #   filter:
+  #     table:
+  #       search: "検索"
+  #       reset: "リセット"
+  #       filter: "フィルター"
+  #       delete: "削除"
+  #       update: "更新"
+  #   message:
+  #     update_message: "従業員が更新されました。"
+  #     insert_message: "従業員が作成されました。"
+  #     delete_message: "従業員が削除されました。"
+  #     hello: "こんにちは"
+  #   error:
+  #     delete_error: "存在していないデータです。フォームをアップロードしてください。"
