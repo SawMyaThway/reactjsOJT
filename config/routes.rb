@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       # ユーザー管理画面
+      resources :users
+      post 'user/create', to: "user#create"
+      post 'user/logintest/:email', to: "user#logintest"
       get 'user/indexUser', to: "user#indexUser"
     end
   end

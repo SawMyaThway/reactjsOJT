@@ -7,6 +7,7 @@ class Api::V1::EmployeeController < ApplicationController
     
     #DBから社員情報を取得する。
     def indexEmployee
+      puts("================",session[:user_id],"================")
       @group = Group.all;
       @role = Role.all;
       # flash[:notice] = t("employee.message.hello")
